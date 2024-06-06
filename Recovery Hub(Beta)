@@ -1,0 +1,63 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+ 
+local window = DrRayLibrary:Load("Recovery Hub(Beta)", "Default")
+ 
+local tab = DrRayLibrary.newTab("All Games","ImageIdHere")
+ 
+tab.newButton("Redz Hub", "Blox Fruit Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+end)
+ 
+tab.newButton("Vector Hub", "Blox Fruit Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/VectorHub/main/Loader.lua"))()
+end)
+ 
+tab.newButton("Win Gaming Hub", "Blox Fruit Script", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")() 
+end)
+ 
+tab.newButton("Vape V4", "Bed Wars Script", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua', true))()
+end)
+ 
+tab.newButton("Godsploit", "Bed Wars Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AlSploit/GodSploit/main/LoadString",true))()
+end)
+ 
+ tab.newButton("Jul Hub", "Brookhaven Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+end)
+ 
+ tab.newButton("Build A Boat", "AutoFarmGold", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Build-A-Boat-For-Treasure-utoFrm-Gold-13684"))()
+end)
+ 
+ tab.newButton("Vyra Movies", "Total Roblox Drama", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Total-Roblox-Drama-Movies-Script-6694"))()
+end)
+
+tab.newButton("Vyra Camp", "Total Roblox Drama", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Total-Roblox-Drama-Camp-Script-6602"))()
+end)
+
+tab.newButton("Work At A Pizza Place", "Aut0 Farm,Auto Cook,Auto Deliver,Etc", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/xQTtE6D9"))()
+end)
+
+tab.newButton("R3THPRIV", "Mm2 Script-To toggle use Keyboard Script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua'))()
+end)
+
+local tab = DrRayLibrary.newTab("Universal", "ImageIdHere")
+
+tab.newButton("infiniteyield", "Admin Commands", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+tab.newToggle("Toggle", "Toggle! (prints the state)", true, function(toggleState)
+    if toggleState then
+        print("On")
+    else
+        print("Off")
+    end
+end)
