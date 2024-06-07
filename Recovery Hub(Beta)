@@ -60,6 +60,10 @@ tab.newButton("Break In 2", "Break In Story Chapter 2", function()
     loadstring(game:HttpGet("https://freenote.biz/raw/80jXm2Q0a7",true))()
 end)
 
+tab.newButton("Break In Story", "First Chapter Script", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/JCWALTth"))()
+end)
+
 local tab = DrRayLibrary.newTab("Universal", "ImageIdHere")
 
 tab.newButton("infiniteyield", "Admin Commands", function()
