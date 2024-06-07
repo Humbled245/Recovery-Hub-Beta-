@@ -52,7 +52,7 @@ tab.newButton("Arsenal", "Best Smooth Arsenal script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Arsenalscript.txt"))()
 end)
 
-tab.newButton("Button", "Prints Hello!", function()
+tab.newButton("Swag Mode", "Da Hood Best Script!", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
 
