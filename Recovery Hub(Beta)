@@ -48,10 +48,26 @@ tab.newButton("R3THPRIV", "Mm2 Script-To toggle use Keyboard Script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua'))()
 end)
 
+tab.newButton("Arsenal", "Best Smooth Arsenal script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Arsenalscript.txt"))()
+end)
+
+tab.newButton("Button", "Prints Hello!", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+tab.newButton("Break In 2", "Break In Story Chapter 2", function()
+    loadstring(game:HttpGet("https://freenote.biz/raw/80jXm2Q0a7",true))()
+end)
+
 local tab = DrRayLibrary.newTab("Universal", "ImageIdHere")
 
 tab.newButton("infiniteyield", "Admin Commands", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+tab.newButton("Nameless Admin", "Admin Commands", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-Admin-v50-12862"))()
 end)
 
 tab.newToggle("Toggle", "Toggle! (prints the state)", true, function(toggleState)
