@@ -64,6 +64,23 @@ tab.newButton("Break In Story", "First Chapter Script", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/JCWALTth"))()
 end)
 
+tab.newButton("FFJ Hub", "Blade  Ball Script", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/DOORS-FFJ-Hub-12403"))()
+end)
+
+tab.newButton("FFJ Hub", "Doors Script", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/DOORS-FFJ-Hub-12403"))()
+end)
+
+tab.newButton("Max Hub", "Gunfight Arena", function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3f4c258405c294983a9b0e113dad3de7.lua"))()
+end)
+
+tab.newButton("Bladers Rebirth", "Auto Farm", function()
+getgenv().keysystem = false -- put false if u dont want key system
+loadstring(game:HttpGet("https://raw.githubusercontent.com/x3fall3nangel/FallAngelHub/main/Main.lua"))()
+end)
+
 local tab = DrRayLibrary.newTab("Universal", "ImageIdHere")
 
 tab.newButton("infiniteyield", "Admin Commands", function()
@@ -72,6 +89,10 @@ end)
 
 tab.newButton("Nameless Admin", "Admin Commands", function()
 loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-Admin-v50-12862"))()
+end)
+
+tab.newButton("Super Speed No Stun", "Credits:Jn HH Gaming", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/The-Strongest-Battlegrounds-No-stun-super-speed-9378"))()
 end)
 
 tab.newToggle("Toggle", "Toggle! (prints the state)", true, function(toggleState)
