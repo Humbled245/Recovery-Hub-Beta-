@@ -1,7 +1,7 @@
 getgenv().doTrivia = true  -- on and off toggle / might not work if executed a second time
 
 apiUrl = "https://the-trivia-api.com/api/questions?categories=food_and_drink&limit=1&region=US&difficulty=medium" -- if you want to make your own settings, go here (https://the-trivia-api.com/docs/) and paste the url / keep limit to 1 
-getgenv().announceSkippingHastags = false -- if your booth has hashtags it will automatically skip - if you want to say in chat that is skipping, set this to true
+getgenv().announceSkippingHastags = true -- if your booth has hashtags it will automatically skip - if you want to say in chat that is skipping, set this to true
 
 
 getgenv().timeLeft = 0
